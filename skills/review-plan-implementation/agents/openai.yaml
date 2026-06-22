@@ -1,0 +1,4 @@
+interface:
+  display_name: "计划实现审查"
+  short_description: "用多视角审查代码是否按计划完成"
+  default_prompt: "使用 $review-plan-implementation 默认开启多个 subagent，审查这次代码改动是否严格按计划完成，并找出阻塞项、漏洞和回归风险。"
