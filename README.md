@@ -4,22 +4,22 @@ Personal agent skills collection.
 
 ## Install
 
-Install every bundled skill:
+Install every bundled skill from GitHub:
 
 ```bash
-npx agent-skills --force
+npx --yes github:OWNER/agent-skills --force
 ```
 
 Install one skill:
 
 ```bash
-npx agent-skills --skill review-plan-implementation --force
+npx --yes github:OWNER/agent-skills --skill review-plan-implementation --force
 ```
 
 List bundled skills:
 
 ```bash
-npx agent-skills --list
+npx --yes github:OWNER/agent-skills --list
 ```
 
 The installer copies skills into `${CODEX_HOME}/skills`, or `~/.codex/skills` when `CODEX_HOME` is not set.
